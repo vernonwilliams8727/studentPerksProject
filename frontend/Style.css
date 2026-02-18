@@ -1,0 +1,126 @@
+.MainPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.Banner{
+    background-color: #041b04;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 5vh;
+    width: 95%;
+}
+.Left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}
+
+.Right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+}
+
+.BannerText{
+    color: beige;
+    display: flex;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+    align-items: center;
+    justify-content: flex-start;
+    transform: translateY(-10%);
+}
+.ButtonMain{
+    width: 100%;
+}
+
+.Announcement{
+    background-color: #000000;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    padding: 5px;
+
+}
+
+.Intro{
+    background-color: white;
+    color: black;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+
+.OfferHeader{
+    background-color: purple;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+
+.OfferSection{
+    display: grid;
+    grid-auto-flow: column;
+    grid-row: auto;
+    grid-template-rows: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    gap: 5px;
+    background-color: white;
+    outline: auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    outline-width: 1px;
+    outline-color: black;
+}
+
+.OfferSection div{
+    background-color:cadetblue;
+    width: 220px;
+    height: 250px;
+    border-radius: 3%;
+
+}
+
+.img{
+    width: 100%;
+    height: auto;    
+}
