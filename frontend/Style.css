@@ -133,7 +133,27 @@
 
 }
 
-.img{
+.image{
     width: 100%;
-    height: auto;    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.image a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
