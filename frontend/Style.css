@@ -4,6 +4,18 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background-color: black;
+}
+
+.BodyMain{
+    display: grid;
+    grid-auto-flow: collumn;
+    gap: 5px;
+    background-color: black;
+    outline: auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -70,8 +82,8 @@
 }
 
 .Intro{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: beige;
     font-size: large;
     display: flex;
     flex-direction: row;
@@ -113,6 +125,7 @@
 }
 
 .OfferSection div{
+    
     background-color:cadetblue;
     width: 220px;
     height: 250px;
